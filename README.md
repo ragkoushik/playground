@@ -1,4 +1,4 @@
-# playground
+# Sound Synthesizer
 Using timbre.js
 
 JavaScript library for objective sound programming
