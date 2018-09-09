@@ -8,7 +8,8 @@
     <body>
         <div id="main">
             <h1 id="chordwork">RK Playground</h1>
-            <div class="codemirror" lang="timbre" source="var pattern = new sc.Pshuf(sc.series(12), Infinity);
+            <div class="codemirror" lang="timbre" source="
+var pattern = new sc.Pshuf(sc.series(15), Infinity);
 var scale   = new sc.Scale.major();
 var chords  = [
     [0, 1, 4], [0, 1, 5], [0, 1, 6],
@@ -34,7 +35,8 @@ chords.choose().forEach(function(i) {
     gen.noteOn(scale.wrapAt(root + i) +60, 80); 
 });
 pan.pos.value = Math.random() * 2 - 1;
-}).set({buddies:synth}).start();">
+}).set({buddies:synth}).start();"
+>
             </div>
         </div>
     <script src="..\soundProgramming\js\jquery.js"></script>
